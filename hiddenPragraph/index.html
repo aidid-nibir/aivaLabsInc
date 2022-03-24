@@ -1,0 +1,30 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Hidden Paragraph</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header onClick="revealMe()" id="header">
+        Header
+        <span style="font-size: 16px">
+          (Hover me for percial view and & click me for full reveal)
+        </span>
+      </header>
+      <div id="nowShowMe">
+        <p class="content">
+          This is a section with a paragraph. The paragraph text is normally
+          hidden. The paragraph should be partially revealed when hovering over
+          the heading. Click the header to fully revealed this Paragraph
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
